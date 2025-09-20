@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next {
+  height: 100%;
+}
+
+/* small helpers */
+.fade-in { animation: fade 300ms ease-in; }
+@keyframes fade { from { opacity: 0 } to { opacity: 1 } }
